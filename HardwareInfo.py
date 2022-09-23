@@ -73,7 +73,8 @@ class HardwareInfo:
          'uno4kse': 'Uno 4K SE',
          'zero4k': 'Zero 4K',
          'duo4k': 'Duo 4K',
-         'duo4kse': 'Duo 4K SE'}
+         'duo4kse': 'Duo 4K SE'
+         'sf8008' : 'sf8008'}
         if devices.has_key(HardwareInfo.vu_device_name):
             return devices[HardwareInfo.vu_device_name]
         else:
